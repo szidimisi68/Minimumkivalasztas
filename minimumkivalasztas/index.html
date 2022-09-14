@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="stilus.css">
+    <title>Minimum kiválasztásos rendezés</title>
+</head>
+<body>
+    <div id="container">
+    <h1>Minimumkiválasztásos rendezés</h1>
+    <table>
+        <th id="alcim"><span id="alahuzas">Jellemzők:</span></th>
+        <tr>
+            <th>Működése:</th>
+            <td>A minimum kiválasztásos rendezés alapötlete a minimum keresést használja fel. <br> A rendezendő tömbben megkeressük a legkisebb elemet, majd ezt helyezzük a legelső indexre. <br> Ezt kihagyva ismét megkeressük a legkisebb elemet, amit aztán a második helyre teszünk, majd egészen addig ismételjük a folyamatot, amíg a tömb végére nem érünk.</td>
+        </tr>
+        <tr>
+            <th>Hatékonyság: </th>
+            <td>Az optimalizációnak köszönhetően a cserés rendezésnél gyorsabb nagyméretű tömbök rendezésében, azonban az algoritmus futási ideje még mindig a négyzeteshez közelít.</td>
+        </tr>
+        <tr>
+            <th>Tárigény:</th>
+            <td>N+1, azaz O(N) <a href="https://hu.wikipedia.org/wiki/O_jel%C3%B6l%C3%A9s" target="_blank">Ordó függvény</a> használatával.</td>
+        </tr>
+        <tr>
+            <th>Összehasonlítások száma:</th>
+            <td>N*(N-1)/2, azaz O(N2) <a href="https://hu.wikipedia.org/wiki/O_jel%C3%B6l%C3%A9s" target="_blank">Ordó függvény</a> használatával.</td>
+        </tr>
+        <tr>
+            <th>Mozgatások száma:</th>
+            <td>3*(N-1)/2, azaz O(N) <a href="https://hu.wikipedia.org/wiki/O_jel%C3%B6l%C3%A9s" target="_blank">Ordó függvény</a> használatával.</td>
+        </tr>
+        <tr>
+            <td colspan="2" id="cim"><b> Példa a minimumkiválasztásos rendezésre: </b></td>
+        </tr>
+        <tr>
+            <td><img id="kep1" src="projekt1.png" alt=""></td>
+            <td><img id="kep2" src="projekt2.png" alt=""></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(hatter.png);
+}
+th{
+    font-size: 25px;
+    text-align: left;
+    border-top: solid rgb(65, 0, 243) 5px;
+    width: 550px;
+
+}
+
+#kep1{
+    width: 550px;
+}
+
+#kep2{
+    width: 500px;
+}
+
+td{
+    font-size: 20px;
+    padding: 10px;
+    text-align: justify;
+    border-top: solid rgb(65, 0, 243) 5px;
+    width: 550px;
+}
+
+#container{
+    width: 1100px;
+    margin: -10px auto -100px auto;
+    background-color: rgb(156, 194, 252);
+    border-radius: 25px;
+    padding: 10px;
+}
+
+#cim{
+    text-align: center;
+    font-size: 30px;
+}
+
+#alcim{
+    font-size: 30px;
+    border: none;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+#kepek{
+    height: 500px;
+}
+
+a{
+    text-decoration: none;    
+}
